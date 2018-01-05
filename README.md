@@ -1,8 +1,14 @@
 #DobotMagician
+
+
 This is a function realization source file based on ROS and the package dobot realized by Dobot corporation.
+
 With the help of Xiaodong Guo(https://github.com/guoxiaodong1992) and Tao Wei, I realize two functions below:
+
 1) use a joystick to control the DobotMagician robot arm (DobotClient_JoyCtrl.cpp)
+
 2) obtain the position coordinates of the robot arm's endpoint at a setted frequency.
+
 reference: please see how to use ros to control dobot [https://cn.dobot.cc/tutorial/ros-demo-control-dobot-magician.html]
 #1.prerequisites
 ROS install
