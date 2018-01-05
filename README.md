@@ -1,73 +1,62 @@
-#DobotMagician#
+README
+===========================
+该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
+
+****
+	
+|Author|果冻虾仁|
+|---|---
+|E-mail|Jelly.K.Wang@qq.com
 
 
-This is a function realization source file based on ROS and the package dobot realized by Dobot corporation.
+****
+## 目录
+* [横线](#横线)
+* [标题](#标题)
+* [文本](#文本)
+    * 普通文本
+    * 单行文本
+    * 多行文本
+    * 文字高亮
+    * 换行
+    * 斜体
+    * 粗体
+    * 删除线
+* [图片](#图片)
+    * 来源于网络的图片
+    * GitHub仓库中的图片
+* [链接](#链接) 
+    * 文字超链接
+        *  链接外部URL
+        *  链接本仓库里的URL
+    *  锚点
+    * [图片链接](#图片链接)
+* [列表](#列表)
+    * 无序列表
+    * 有序列表
+    * 复选框列表
+* [块引用](#块引用)
+* [代码高亮](#代码高亮)
+* [表格](#表格) 
+* [表情](#表情)
+* [diff语法](#diff语法)
 
-With the help of Xiaodong Guo(https://github.com/guoxiaodong1992) and Tao Wei, I realize two functions below:
+### 横线
+-----------
+***、---、___可以显示横线效果
 
-1) use a joystick to control the DobotMagician robot arm (DobotClient_JoyCtrl.cpp)
-
-2) obtain the position coordinates of the robot arm's endpoint at a setted frequency.
-
-reference: please see how to use ros to control dobot [https://cn.dobot.cc/tutorial/ros-demo-control-dobot-magician.html]
-
-
-#1.prerequisites
-
-ROS install
-
-dobot_ws download
-
-joystick driver install
-
-##1.1 ROS install
-
-	see [http://www.cnblogs.com/liu-fa/p/5779206.html]
-
-##1.2 dobot_ws download
-
-	see [https://cn.dobot.cc/downloadcenter/dobot-magician.html?sub_cat=72#sub-download]
-
-##1.3 joystick driver install
-
-	see [http://blog.csdn.net/sujun3304/article/details/18791843]
-
-	ps: you can use jstest-gtk to test whether your joysticks work well.
+***
+---
+___
 
 
-#USAGE
 
-##compile 
+标题
+------
 
-	cd dobot_ws
-
-	catkin_make
-
-##open roscore
-
-	roscore 
-
-##open another teminal and open dobot server
-
-	source devel/setup.bash
-
-	sudo chmod 666 /dev/ttyUSB0 //change the authority of ttyUSB0
-
-	rosrun dobot DobotServer ttyUSB0 
-
-##open another terminal and open joy node
-
-	rosrun joy joy_node
-
-##open another terminal and open joy control
-
-	source devel/setup.bash
-
-	rosrun dobot DobotClient_JoyCtrl
-
-##open another terminal and open pose get, the armTrack.csv will be recorded
-
-	souce devel/setup.bash
-
-	rosrun dobot DobotClient_GetPose# DobotMagician
-
+# 一级标题  
+## 二级标题  
+### 三级标题  
+#### 四级标题  
+##### 五级标题  
+###### 六级标题  
