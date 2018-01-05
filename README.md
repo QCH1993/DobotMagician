@@ -1,5 +1,6 @@
 #DobotMagician
 
+=======================
 
 This is a function realization source file based on ROS and the package dobot realized by Dobot corporation.
 
@@ -39,35 +40,35 @@ joystick driver install
 
 ##compile 
 
-cd dobot_ws
+	cd dobot_ws
 
-catkin_make
+	catkin_make
 
 ##open roscore
 
-roscore 
+	roscore 
 
 ##open another teminal and open dobot server
 
-source devel/setup.bash
+	source devel/setup.bash
 
-sudo chmod 666 /dev/ttyUSB0 //change the authority of ttyUSB0
+	sudo chmod 666 /dev/ttyUSB0 //change the authority of ttyUSB0
 
-rosrun dobot DobotServer ttyUSB0 
+	rosrun dobot DobotServer ttyUSB0 
 
 ##open another terminal and open joy node
 
-rosrun joy joy_node
+	rosrun joy joy_node
 
 ##open another terminal and open joy control
 
-source devel/setup.bash
+	source devel/setup.bash
 
-rosrun dobot DobotClient_JoyCtrl
+	rosrun dobot DobotClient_JoyCtrl
 
 ##open another terminal and open pose get, the armTrack.csv will be recorded
 
-souce devel/setup.bash
+	souce devel/setup.bash
 
-rosrun dobot DobotClient_GetPose# DobotMagician
+	rosrun dobot DobotClient_GetPose# DobotMagician
 
