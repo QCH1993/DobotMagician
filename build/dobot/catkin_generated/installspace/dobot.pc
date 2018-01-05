@@ -1,0 +1,8 @@
+prefix=/home/qch/dobot_ws/install
+
+Name: dobot
+Description: Description of dobot
+Version: 0.0.0
+Cflags: -I/home/qch/dobot_ws/install/include
+Libs: -L/home/qch/dobot_ws/install/lib 
+Requires: roscpp rospy std_msgs message_runtime geometry_msgs

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/qch/dobot_ws/install/setup.sh

@@ -1,0 +1,8 @@
+(cl:in-package dobot-srv)
+(cl:export '(RESULT-VAL
+          RESULT
+          VELOCITY-VAL
+          VELOCITY
+          ACCELERATION-VAL
+          ACCELERATION
+))

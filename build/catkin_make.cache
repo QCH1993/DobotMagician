@@ -1,0 +1,2 @@
+dobot
+-DCATKIN_DEVEL_PREFIX=/home/qch/dobot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/qch/dobot_ws/install -G Unix Makefiles
