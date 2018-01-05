@@ -1,6 +1,5 @@
-#DobotMagician
+#DobotMagician#
 
-=======================
 
 This is a function realization source file based on ROS and the package dobot realized by Dobot corporation.
 
