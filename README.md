@@ -32,4 +32,4 @@ source devel/setup.bash
 rosrun dobot DobotClient_JoyCtrl
 ##open another terminal and open pose get, the armTrack.csv will be recorded
 souce devel/setup.bash
-rosrun dobot DobotClient_GetPose
+rosrun dobot DobotClient_GetPose# DobotMagician
